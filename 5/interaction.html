@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom j5</title>
+</head>
+<body>
+    <h1 id="Tittle">DOM</h1>
+    <button onclick="changeDom()">Change to Dom</button>
+
+    <h2>lo que sea</h2>
+    <h2></h2>
+
+    <script>
+        const titulo= document.getElementById("Tittle");
+        const subtitulo= document.getElementsByTagName("h2");
+const changeDom = ()                            
+        
+        
+
+        titulo.innerHTML="DOCUMENT OBJECT MODEL";
+        subtitulo[0].innerHTML="Soy el primer h2";
+        subtitulo[1].innerHTML="Soy el segundo h2";
+
+
+    </script>
+
+</body>
+</html>
